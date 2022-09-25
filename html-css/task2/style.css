@@ -1,0 +1,76 @@
+body {
+    background-color: #f6f6f6;
+    font-family: sans-serif;
+}
+
+.box {
+    width: 300px;
+    height: 450px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px;
+    color: grey;
+
+}
+
+.container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+header {
+    font-size: xx-large;
+    color: skyblue;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.box:hover {
+    box-shadow: 1px 1px 14px rgb(71, 71, 71);
+    transition: 0.5s;
+    cursor: pointer;
+    
+
+}
+
+i {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+.music{
+    position: absolute;
+    margin-top: 57px;
+   font-size: large;
+}
+.line{
+width: 32px;
+height: 1.2px;
+background-color: grey;
+margin-top: 100px;
+position: absolute;
+
+}
+.text{
+    position: absolute;
+width: 250px;
+margin-top: 140px;
+}
+.text2{
+    position: absolute;
+    margin-top: 260px;
+    width: 250px;
+}
+.box:hover i{
+    color: skyblue;
+}
+.box:hover .music{
+    color: skyblue;
+}
+.box:hover .line{
+    width: 22px;
+    transition: 0.5s;
+}

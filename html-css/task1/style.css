@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(150, 4, 4);
+    font-family: sans-serif;
+}
+
+.singup {
+    width: 350px;
+    margin: 200px auto;
+    background-color: white;
+    padding: 10px 0px 30px 30px;
+    border-radius: 15px;
+}
+
+input {
+    width: 321px;
+    height: 35px;
+    border-radius: 5px;
+    border-color: rgb(186, 186, 186);
+    margin: 5px 0px;
+}
+
+button {
+    width: 330px;
+    border-radius: 5px;
+    border-color: transparent;
+    margin: 5px 0px;
+    height: 43px;
+    background-color: rgb(200, 4, 4);
+    color: white;
+    font-size: x-large;
+}
+
+h1 {
+    color: rgb(200, 4, 4);
+}
+
+input:hover {
+    border-color: rgb(200, 4, 4);
+}
+
+hr {
+    width: 310px;
+    position: relative;
+    right: 15px;
+    color: black;
+
+}
