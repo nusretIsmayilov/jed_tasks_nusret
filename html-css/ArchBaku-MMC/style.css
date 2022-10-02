@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    background-color: green;
+    padding-left: 100px;
+    align-items: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+
+
+}
+
+.phone {
+    position: relative;
+    left: 17px;
+}
+
+.i-phone {
+    position: relative;
+    left: 10px;
+}
+
+.i-mail {
+    position: relative;
+    left: 80px;
+}
+
+.mail {
+    position: relative;
+    left: 89px;
+}
+
+.i-location {
+    position: relative;
+    left: 155px;
+}
+
+.location {
+    position: relative;
+    left: 165px;
+}
+
+.header-icons {
+    display: flex;
+    width: 65%;
+    gap: 30px;
+    justify-content: end;
+    
+}
+
+.main-ul {
+    display: flex;
+    gap: 90px;
+    justify-content: end;
+    width: 90%;
+}
+.main-list  a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: ;
+}
