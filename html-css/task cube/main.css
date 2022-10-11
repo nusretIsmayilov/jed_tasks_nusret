@@ -56,36 +56,36 @@ body{
 }
 #front{
     transform: translateZ(125px);
-    background-image: url(./me.jpg);
+    background-image: url(./link.webp);
     background-size: cover;
 }
 #back{
     transform: translateZ(-125px);
-    background-image: url(./sid.jpg);
+    background-image: url(./link.webp);
     background-size: cover;
 }
 #left{
     right: 125px;
     transform: rotateY(-90deg);
-    background-image: url(./photo1.jpg);
+    background-image: url(./link.webp);
     background-size: cover;
 }
 #right{
     left: 125px;
     transform: rotateY(90deg);
-    background-image: url(./photo2.jpg);
+    background-image: url(./link.webp);
     background-size: cover;
 }
 #top{
     bottom: 125px;
     transform: rotateX(90deg);
-    background-image: url(./photo3.jpg);
+    background-image: url(./link.webp);
     background-size: cover;
 }
 #bottom{
     top: 125px;
     transform: rotateX(-90deg);
-    background-image: url(./photo4.jpg);
+    background-image: url(./link.webp);
     background-size: cover;
     background-position: center;
 }
