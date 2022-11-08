@@ -1,0 +1,44 @@
+.btn {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin: 20px;
+    
+}
+
+.btn1 {
+    background-color: red;
+}
+
+.btn2 {
+    background-color: blue;
+}
+
+.btn3 {
+    background-color: pink;
+}
+
+.btn4 {
+    background-color: yellow;
+}
+
+#bodim {
+    background-color: darkgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+p {
+display: flex;
+justify-content: center;
+align-items: center;
+    font-size: 36px;
+    font-weight: 600;
+}
