@@ -1,0 +1,12 @@
+.root{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 50px;
+   height: 50vh;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 15%;
+}
